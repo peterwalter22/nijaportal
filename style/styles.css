@@ -1,0 +1,112 @@
+/* Reset some default browser styles */
+body, h1, h2, p, a, img, nav, section, header, main, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    width: 150px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main grid styling */
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.lagos-card, .camping-card, .msg {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.msg {
+    grid-column: span 2;
+    text-align: center;
+}
+
+/* Join Us button styling */
+.join {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.join:hover {
+    background: #555;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .msg {
+        grid-column: span 1;
+    }
+}

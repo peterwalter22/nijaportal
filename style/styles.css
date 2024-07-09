@@ -7,7 +7,7 @@ body, h1, h2, p, a, img, nav, section, header, main, footer {
 
 /* Body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family:  Martian+Mono, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -15,7 +15,7 @@ body {
 
 /* Header styling */
 header {
-    background:blue;
+    background: #55E655;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -31,7 +31,7 @@ header nav {
 }
 
 header nav a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -56,7 +56,7 @@ header nav a:hover {
 }
 
 .lagos-card, .camping-card, .msg {
-    background: #fff;
+    background: #99E31E;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;

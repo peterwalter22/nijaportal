@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    padding: 20px;
 }
 
 /* Header styling */
@@ -31,7 +32,7 @@ header nav {
 }
 
 header nav a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -60,6 +61,7 @@ header nav a:hover {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    color: #333;
 }
 
 .msg {
@@ -92,7 +94,7 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     margin: 0 10px;
 }

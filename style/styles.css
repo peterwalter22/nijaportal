@@ -14,6 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid #e0e0e0;
 }
 
 #logo img{
@@ -34,6 +35,7 @@ header nav a {
 
 header nav a:hover {
     text-decoration: underline;
+    background-color: #99E31E;
 }
 
 .notification {
@@ -60,6 +62,20 @@ header nav a:hover {
     color: white;
   }
 
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .about-grid section {
+    /* background-color: white; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
 
 /* Main grid styling */
 .home-grid {
@@ -70,7 +86,6 @@ header nav a:hover {
 }
 
 .home-grid section{
-    background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -82,7 +97,6 @@ header nav a:hover {
 }
 
 .lagos-card, .camping-card, .msg {
-    background: #99E31E;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -92,12 +106,13 @@ header nav a:hover {
 .msg {
     grid-column: span 2;
     text-align: center;
+    background-color: burlywood;
 }
 
 /* Join Us button styling */
 .join {
     display: inline-block;
-    background: #333;
+    background: green;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;

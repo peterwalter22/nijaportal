@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #55E655 ;
-  --secondary-color: #1EE3A4;
-  --accent1-color: #1EDFE3;
-  --accent2-color: #99E31E;
+  --primary-color: burlywood ;
+  --secondary-color: white;
+  --accent1-color: grey;
+  --accent2-color: black;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Martian+mono";

@@ -1,29 +1,23 @@
-/* Reset some default browser styles */
-body, h1, h2, p, a, img, nav, section, header, main, footer {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Body styling */
 body {
     font-family: "Martian Mono", sans-serif;
-    line-height: 1.6;
+    margin: 0;
     background-color: #f4f4f4;
     color: #333;
-    padding: 20px;
+    padding: 0;
 }
 
 /* Header styling */
 header {
-    background: #55E655;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    position: relative;
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header img {
+#logo img{
+    height: 50px;
     width: 150px;
 }
 
@@ -75,10 +69,16 @@ header nav a:hover {
     padding: 20px;
 }
 
+.home-grid section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
 .card-img {
     width: 100%;
-    height: auto;
-    display: block;
+    border-radius: 10px;
 }
 
 .lagos-card, .camping-card, .msg {
@@ -114,7 +114,7 @@ footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
     position: relative;
 }
 
@@ -122,6 +122,10 @@ footer a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
+}
+
+footer a:hover{
+    color: white
 }
 
 footer img {

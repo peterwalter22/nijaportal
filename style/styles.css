@@ -43,7 +43,7 @@ header nav a:hover {
     color: white;
     text-decoration: none;
     padding: 15px 26px;
-    position: center;
+    position: absolute;
     display: inline-block;
     border-radius: 2px;
   }
@@ -53,7 +53,6 @@ header nav a:hover {
   }
   
   .notification .badge {
-    position: left;
     top: -10px;
     right: -10px;
     padding: 5px 10px;

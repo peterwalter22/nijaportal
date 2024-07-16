@@ -75,6 +75,35 @@ header nav a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
+  main.what-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .bush-card, .mosque, .msg{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .bush-card img, .mosque img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .msg h2 {
+    margin-top: 0;
+  }
+
+  .msg p{
+    text-align: left;
+  }
+
+
 
 /* Main grid styling */
 .home-grid {
